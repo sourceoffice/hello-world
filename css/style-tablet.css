@@ -1,0 +1,163 @@
+body {
+  font-size: 18px; }
+
+.title_big {
+  font-size: 72px; }
+.title_small {
+  font-size: 36px; }
+.title_medium {
+  font-size: 52px; }
+
+.row {
+  width: 90%; }
+
+.header {
+  padding: 1em 5%; }
+  .header__phone {
+    width: auto; }
+
+.main {
+  padding-top: 86px; }
+  .main__info {
+    width: 100%; }
+    .main__info-box {
+      width: 40%; }
+
+.about {
+  margin-bottom: 0; }
+
+.direction.active .direction__persons {
+  width: 100%;
+  margin-left: -30%;
+  pointer-events: none; }
+.direction__info > div {
+  margin-right: 1em; }
+.direction__persons {
+  height: 50vh; }
+
+.form {
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 4em 0; }
+  .form .button {
+    width: 100%; }
+  .form__jet {
+    width: 90vw;
+    margin-top: 0; }
+    .form__jet img {
+      width: 100vw;
+      top: -2em; }
+  .form p {
+    margin-bottom: 0; }
+  .form__form {
+    margin-top: 0;
+    padding-top: 0; }
+  .form__title-desc {
+    width: 61%; }
+
+.pays {
+  width: 100%; }
+  .pays__desc {
+    width: 80%; }
+  .pays__count {
+    font-size: 36px; }
+
+.skills__box {
+  flex-wrap: wrap; }
+.skills__box-col {
+  width: 40%;
+  margin-right: 10%; }
+
+.info-line__desc {
+  width: 35%;
+  padding-right: 5%; }
+
+.technologies__icons {
+  width: 55%;
+  margin-right: 0; }
+  .technologies__icons span {
+    width: 33.33%;
+    text-align: center; }
+.technologies__desc {
+  width: 35%;
+  padding: 0; }
+  .technologies__desc p {
+    width: 30vw; }
+
+.youlearn {
+  flex-wrap: wrap;
+  padding: 4em 0 4em 0; }
+  .youlearn__title {
+    width: 45%;
+    padding-right: 55%; }
+  .youlearn__desc {
+    width: 45%;
+    padding-right: 55%; }
+  .youlearn__bg img {
+    right: -5vw; }
+
+.youllcan__col {
+  width: 28%;
+  margin-right: 5.33%; }
+
+.prices__main, .direction__info span, .info-line__numbers span {
+  font-size: 56px; }
+
+.spoiler__content {
+  height: auto; }
+.spoiler__content-title {
+  font-size: 44px; }
+
+.person_1 img, .person_2 img, .person_3 img, .person_4 img, .person_5 img, .person_6 img, .person_7 img, .person_8 img, .person_9 img, .person_10 img, .person_11 img, .person_12 img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-height: 100%;
+  position: static; }
+.person_1 .person__info, .person_2 .person__info, .person_3 .person__info, .person_4 .person__info, .person_5 .person__info, .person_6 .person__info, .person_7 .person__info, .person_8 .person__info, .person_9 .person__info, .person_10 .person__info, .person_11 .person__info, .person_12 .person__info {
+  top: 2em;
+  left: 0;
+  width: 35vw; }
+.person + .person .person__info {
+  left: 90vw; }
+.person + .person + .person .person__info {
+  left: 180vw; }
+.person + .person + .person + .person .person__info {
+  left: 270vw; }
+.person_1 img {
+  width: 45%; }
+.person_2 img {
+  width: 39%; }
+.person_3 img {
+  width: 50%; }
+.person_4 img {
+  width: 46%; }
+.person_5 img {
+  width: 41%; }
+.person_6 img {
+  width: 43%; }
+.person_7 img {
+  width: 43%; }
+.person_8 img {
+  width: 31%; }
+.person_9 img {
+  width: 57%; }
+.person_10 img {
+  width: 37%; }
+.person_11 img {
+  width: 40%; }
+.person_12 img {
+  width: 46%; }
+
+.slider-ease {
+  transition: transform 400ms ease; }
+
+.prices {
+  margin: 100px auto 50px; }
+  .prices__price {
+    font-size: 18px; }
+  .prices__col p {
+    font-size: 16px; }
+  .prices__col h4 {
+    font-size: 18px; }
+
+/*# sourceMappingURL=style-tablet.css.map */
